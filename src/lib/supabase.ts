@@ -119,6 +119,11 @@ export type Database = {
         answer: string | null;
         purpose: string | null;
         chapter_id: string | null;
+        diagram_json: any | null;
+        options_diagrams: any[] | null;
+        answer_diagram: any | null;
+        solution_diagram: any | null;
+        is_wrong: boolean | null;
       };
       Insert: {
         id?: string;
@@ -141,6 +146,11 @@ export type Database = {
         answer?: string | null;
         purpose?: string | null;
         chapter_id?: string | null;
+        diagram_json?: any | null;
+        options_diagrams?: any[] | null;
+        answer_diagram?: any | null;
+        solution_diagram?: any | null;
+        is_wrong?: boolean | null;
       };
       Update: {
         id?: string;
@@ -163,6 +173,11 @@ export type Database = {
         answer?: string | null;
         purpose?: string | null;
         chapter_id?: string | null;
+        diagram_json?: any | null;
+        options_diagrams?: any[] | null;
+        answer_diagram?: any | null;
+        solution_diagram?: any | null;
+        is_wrong?: boolean | null;
       };
     };
     questions_topic_wise: {
